@@ -26,9 +26,7 @@
             </form>
         </div>
 
-@foreach ( as )
-    
-@endforeach
+
     
 </body>
 </html>
