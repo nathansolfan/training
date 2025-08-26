@@ -30,9 +30,9 @@
         <div>
 
             @foreach ( $users as $user )
-
-            $user->email;
-                
+            
+            {{$user->email;}}
+                            
             @endforeach
             
             
