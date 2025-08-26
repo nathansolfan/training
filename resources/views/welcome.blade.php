@@ -30,6 +30,8 @@
         <div>
 
             @foreach ( $items as $item )
+
+            $item->email;
                 
             @endforeach
             
