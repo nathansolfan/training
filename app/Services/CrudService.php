@@ -19,4 +19,9 @@ class CrudService
         $allUsers = User::all();
         return $allUsers;
     }
+
+    public function getUser()
+    {
+        
+    }
 }
