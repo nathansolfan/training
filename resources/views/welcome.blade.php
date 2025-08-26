@@ -28,6 +28,10 @@
         </div>
 
         <div>
+
+            @foreach ( $items as $item )
+                
+            @endforeach
             
             
         </div>
