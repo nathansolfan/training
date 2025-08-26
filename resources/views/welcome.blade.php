@@ -29,9 +29,9 @@
 
         <div>
 
-            @foreach ( $items as $item )
+            @foreach ( $users as $user )
 
-            $item->email;
+            $user->email;
                 
             @endforeach
             
