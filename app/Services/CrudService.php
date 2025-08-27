@@ -22,6 +22,7 @@ class CrudService
 
     public function getUser()
     {
-        
+        $user = 
+
     }
 }

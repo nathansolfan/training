@@ -32,7 +32,7 @@
             @foreach ( $users as $user )
             
             {{$user->email;}}
-            <a href=" /user/{{$user->id}} ">Id</a>
+            <a href="/user/{{$user->id}} ">Id</a>
 
             @endforeach
             
