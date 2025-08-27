@@ -29,10 +29,18 @@ class CrudController extends Controller
         return view('welcome', compact('users'));
     }
 
-    public function show(User $user)
+    // public function show(User $user)
+    // {
+    //     $user = $this->crudService->getUser($user->id);
+    //     return view('show', compact('user'));
+    // }
+
+    public function show($id)
     {
-        $user = $this->crudService->getUser($user->id);
+        $user = $this->crudService->getUser($id);
         return view('show', compact('user'));
+
+        
     }
 
     

@@ -20,9 +20,13 @@ class CrudService
         return $allUsers;
     }
 
-    public function getUser(User $user)
-    {
-        return $user;
+    // public function getUser(User $user)
+    // {
+    //     return $user;
+    // }
 
+    public function getUser($id)
+    {
+        return $id;
     }
 }
