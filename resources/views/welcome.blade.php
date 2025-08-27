@@ -31,7 +31,7 @@
 
             @foreach ( $users as $user )
             
-            {{$user->email;}}
+            {{$user->email}}
             <a href="/user/{{$user->id}} ">Id</a>
 
             @endforeach

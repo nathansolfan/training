@@ -16,4 +16,4 @@ Route::get('/', [CrudController::class, 'index']);
 
 Route::post('/form', [CrudController::class, 'store']);
 
-Route::get('/user/{$user}', [CrudController::class, 'show']);
+Route::get('/user/{user}', [CrudController::class, 'show']);

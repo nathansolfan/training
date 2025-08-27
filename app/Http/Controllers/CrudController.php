@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\CrudRequest;
+use App\Models\User;
 use App\Services\CrudService;
 use Illuminate\Http\Request;
 
@@ -28,7 +29,7 @@ class CrudController extends Controller
         return view('welcome', compact('users'));
     }
 
-    public function show()
+    public function show(User $user)
     {
         $user = $this->crudService->getUser();
         return view('show', compact('user'));
