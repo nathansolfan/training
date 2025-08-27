@@ -31,9 +31,11 @@ class CrudController extends Controller
 
     public function show(User $user)
     {
-        $user = $this->crudService->getUser();
+        $user = $this->crudService->getUser($user->id);
         return view('show', compact('user'));
     }
+
+    
 
 
 
