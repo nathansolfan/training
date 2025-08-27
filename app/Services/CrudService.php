@@ -27,6 +27,6 @@ class CrudService
 
     public function getUser($id)
     {
-        return $id;
+        return User::findOrFail($id);
     }
 }
