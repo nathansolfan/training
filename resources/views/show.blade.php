@@ -27,6 +27,7 @@
         </div>
         <div>
             Users
+            {{$user->name}}
         
         </div>
 
